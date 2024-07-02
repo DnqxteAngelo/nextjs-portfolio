@@ -1,12 +1,10 @@
-
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
+import { Button } from "./ui/button";
 import { Download, Send } from "lucide-react";
 
-export default function Home() {
-  return (
-    <main className="min-h-screen">
-      <section className="py-12 xl:py-24 h-[40vh] xl:pt-28 bg-no-repeat bg-bottom bg-cover dark:bg-none">
+export default function Hero() {
+    return (
+        <section className="py-12 xl:py-24 h-[40vh] xl:pt-28 bg-no-repeat bg-bottom bg-cover dark:bg-none">
             <div className="container mx-auto">
                 <div className="items-center md:flex justify-between gap-x-8">
                     <div className="flex flex-col items-center">
@@ -41,6 +39,5 @@ export default function Home() {
                 </div>
             </div>
         </section >
-    </main>
-  )
+    )
 }
